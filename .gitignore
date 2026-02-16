@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== Virtual Environment =====
+.venv/
+venv/
+env/
+
+# ===== Large Datasets (not needed to run the app) =====
+inversecooking/data/large_food_dataset/
+inversecooking/data/indian_food/train/
+inversecooking/data/indian_food/test/
+inversecooking/data/indian_food/val/
+
+# ===== Old/Archived Files (not needed) =====
+inversecooking/archive/old_data/
+inversecooking/archive/old_models/
+inversecooking/archive/old_scripts/
+inversecooking/archive/__pycache__/
+
+# ===== Large Model Checkpoints (not needed for deploy) =====
+inversecooking/data/modelbest.ckpt
+inversecooking/data/large_model/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# ===== Zip / Archives (redundant) =====
+*.zip
+
+# ===== Misc =====
+*.log
+*.tmp

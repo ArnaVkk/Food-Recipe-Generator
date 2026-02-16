@@ -1,0 +1,15 @@
+# Universal Food Recipe Generator - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Web Interface
+gradio>=4.0.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# Note: For GPU support, install PyTorch with CUDA:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
