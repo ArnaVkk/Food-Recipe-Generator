@@ -1,8 +1,35 @@
-# 🍛🍔 Smart Ingredient Identifier - Universal Food Recipe Generator
+# 🍛🍔 Smart Ingredient Identifier — Universal Food Recipe Generator
 
-An AI-powered web application that identifies food dishes from images and generates detailed recipes. Built with **PyTorch** and **Gradio**.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?logo=pytorch&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-4.0+-orange?logo=gradio&logoColor=white)
+![Accuracy](https://img.shields.io/badge/Accuracy-84.8%25-brightgreen)
+![Categories](https://img.shields.io/badge/Food%20Categories-181-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-**Model Accuracy:** 84.8% | **Categories:** 181 (80 Indian + 101 Western) | **Architecture:** EfficientNet-B0
+> 📸 **Upload a food photo → AI identifies the dish → Get a full recipe instantly!**
+
+An AI-powered web application that recognizes **181 food dishes** (80 Indian 🇮🇳 + 101 International 🌍) from images using deep learning, and generates detailed recipes with ingredients and step-by-step cooking instructions.
+
+### ✨ Key Highlights
+
+- 🎯 **84.8% accuracy** on 181 food categories
+- 🧠 **EfficientNet-B0** architecture with transfer learning
+- 🍛 **80 Indian dishes** — Biryani, Dosa, Butter Chicken, Samosa, Naan, and more
+- 🍔 **101 International dishes** — Pizza, Sushi, Tacos, Ramen, Steak, and more
+- 🌐 **Gradio web interface** — clean, interactive, and mobile-friendly
+- ⚡ Works on both **CPU and GPU**
+- 📦 Lightweight deployment — just **~27 MB** total
+
+---
+
+## 🎬 Demo
+
+Upload any food image and get:
+- ✅ **Dish name** with confidence score
+- ✅ **Cuisine type** (Indian / International)
+- ✅ **Full ingredient list**
+- ✅ **Step-by-step cooking instructions**
 
 ---
 
@@ -10,7 +37,7 @@ An AI-powered web application that identifies food dishes from images and genera
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Food-Recipe-Generator.git
+git clone https://github.com/ArnaVkk/Food-Recipe-Generator.git
 cd Food-Recipe-Generator
 ```
 
@@ -115,4 +142,18 @@ This project uses:
 
 ---
 
-**Built:** January 2026 | **Framework:** PyTorch + Gradio
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful, give it a ⭐ on GitHub!
+
+---
+
+<p align="center">
+  <b>Built with ❤️ using PyTorch + Gradio | January 2026</b>
+</p>
